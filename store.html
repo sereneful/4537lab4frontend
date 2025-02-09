@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Definition</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div>
+        <h1>Store a New Word and Definition</h1>
+        <form id="storeForm">
+            <label for="word">Word:</label>
+            <input type="text" id="word" required><br>
+            <label for="definition">Definition:</label>
+            <textarea id="definition" rows="4" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="response"></p>
+
+        <div id="notification" style="display: none; background-color: #28a745; color: white; padding: 10px; margin-top: 10px; border-radius: 5px;">
+            Word and definition submitted successfully!
+        </div>
+
+        <p><a href="search.html">Go to Search Page</a></p>
+    </div>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
