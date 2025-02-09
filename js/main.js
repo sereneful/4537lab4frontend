@@ -1,4 +1,3 @@
-// js/main.js
 import DictionaryService from './dictionaryService.js';
 
 document.addEventListener('DOMContentLoaded', function() {
