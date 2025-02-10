@@ -39,6 +39,12 @@ textarea {
     border: 1px solid #ccc;
 }
 
+/* Disable resizing for textareas */
+textarea {
+    resize: none;
+}
+
+
 /* Basic button styling */
 button {
     padding: 5px 10px;
